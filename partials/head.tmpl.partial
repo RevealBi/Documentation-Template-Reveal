@@ -4,7 +4,7 @@ full license information.}}
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>{{#title}}{{title}}{{/title}} {{^title}}{{>partials/title}}{{/title}}{{#_appTitle}}- Native Angular | {{_appTitle}} {{/_appTitle}}
+    <title>{{#title}}{{title}}{{/title}} {{^title}}{{>partials/title}}{{/title}}{{#_appTitle}} | {{_appTitle}} {{/_appTitle}}
     </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="{{#title}}{{title}}{{/title}}{{^title}}{{>partials/title}}{{/title}} {{#_appTitle}}| {{_appTitle}} {{/_appTitle}}"> {{#_description}}
@@ -14,7 +14,7 @@ full license information.}}
     <meta property="docfx:tocrel" content="{{_tocRel}}"> {{#_noindex}}
     <meta name="searchOption" content="noindex">{{/_noindex}} {{#_enableSearch}}
     <meta property="docfx:rel" content="{{_rel}}">{{/_enableSearch}} {{#_enableNewTab}}
-    <meta property="docfx:newtab" content="true">{{/_enableNewTab}} 
+    <meta property="docfx:newtab" content="true">{{/_enableNewTab}}
     <link rel="canonical" href="{{_currentBaseUrl}}{{_path}}" />
     <link rel="alternate" href="{{_ENBaseUrl}}{{_path}}" hreflang="x-default" />{{#_extraFont}}
     <link rel="stylesheet" href="{{_extraFont}}"> {{/_extraFont}}
