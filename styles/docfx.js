@@ -78,7 +78,7 @@ $(function () {
     visibleTop = elTop < scrollTop ? scrollTop : elTop,
     visibleBottom = elBottom > scrollBot ? scrollBot : elBottom;
     if(visibleTop < visibleBottom) {
-      decreaseSideNavsHeight((visibleBottom - visibleTop)); 
+      decreaseSideNavsHeight((visibleBottom - visibleTop));
     } else {
       $('.sidetoc').height(initialSidetocHeight);
       $('#affix').height(initialAffixHeight);
@@ -592,7 +592,7 @@ $(function () {
 
       if(top > 168) {
         $(".sidetoc").scrollTop(top - 50)
-      } 
+      }
 
       if ($("footer").is(":visible")) {
         // $('.sidetoc').addClass('shiftup');
@@ -802,14 +802,14 @@ $(function () {
     var html = util.formList(breadcrumb, "breadcrumb");
     $("#breadcrumb").html(html);
   }
- 
+
   //Setup Affix
   function renderAffix() {
     var hierarchy = getHierarchy();
 
     if (hierarchy.length > 0) {
       var html =
-        '<h5 data-localize="sideaffix.title" class="sifeaffix__title"></h5>';
+        '<h5 data-localize="sideaffix.title" class="sideaffix__title"></h5>';
       html += util.formList(hierarchy, ["nav", "bs-docs-sidenav"]);
       $("#affix")
         .empty()
