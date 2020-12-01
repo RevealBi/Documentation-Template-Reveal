@@ -25,7 +25,7 @@ FOOTER
 						</div>
 						<ul>
 							<li>
-								<a class="menu__link" href="https://www.revealbi.io/jp/help/developer">
+								<a class="menu__link" href="https://help.revealbi.io/jp/developer/">
 									<span>開発者ガイド</span>
 								</a>
 							</li>
@@ -35,8 +35,8 @@ FOOTER
 								</a>
 							</li>
 							<li>
-								<a class="menu__link" href="https://www.revealbi.io/help">
-									<span>アプリヘルプ（英語）</span>
+								<a class="menu__link" href="https://help.revealbi.io/jp/welcome.html">
+									<span>アプリヘルプ</span>
 								</a>
 							</li>
 						</ul>
@@ -116,11 +116,14 @@ Branded Footer
 			<a href="https://jp.infragistics.com/legal/privacy">プライバシーポリシー</a>
 		</li>
 		<li class="list-inline-item">
-			<a href="https://www.infragistics.com/legal/cookie-policy">クッキーポリシー（英語）</a>
+			<a href="https://jp.infragistics.com/legal/cookie-policy">クッキーポリシー</a>
 		</li>
 		<li class="list-inline-item">
 			<a href="https://jp.infragistics.com/legal/terms-of-use">利用条件</a>
 		</li>
+		<li class="list-inline-item">
+            <a href="https://jp.infragistics.com/legal/tokusyohou">特定商取引法に基づく表記</a>
+        </li>
 	</ul>
 	<div class="container-fluid footer footer-copyright">
 		<span id="copyright" class="m-0">© Copyright 2020 INFRAGISTICS. All Rights Reserved.</span>
