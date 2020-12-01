@@ -1125,8 +1125,14 @@ function closeContainer() {
 
 $(document).ready(function () {
   var contentOffset = $("#_content").offset().top;
-  var pageLanguage = $(document.body).data("lang");
+  // var pageLanguage = $(document.body).data("lang");
+  //if (!pageLanguage) {
+    //pageLanguage = "en";
+  //}
+  var pageLanguage = $(document.body).data("_isLangEn")
   if (!pageLanguage) {
+    pageLanguage = "ja";
+  } else {
     pageLanguage = "en";
   }
 
