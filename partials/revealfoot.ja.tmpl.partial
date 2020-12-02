@@ -25,18 +25,18 @@ FOOTER
 						</div>
 						<ul>
 							<li>
-								<a class="menu__link" href="https://help.revealbi.io/jp/developer/">
-									<span>開発者ガイド</span>
-								</a>
-							</li>
-							<li>
-								<a class="menu__link" href="https://static.infragistics.com/marketing/reveal/business-teams-reveal-architecture-and-security.pdf?v=201903141130">
-									<span>アーキテクチャガイド（英語）</span>
-								</a>
-							</li>
-							<li>
 								<a class="menu__link" href="https://help.revealbi.io/jp/welcome.html">
-									<span>アプリヘルプ</span>
+									<span>アプリケーションのドキュメント</span>
+								</a>
+							</li>
+							<li>
+								<a class="menu__link" href="https://help.revealbi.io/jp/developer/">
+									<span>開発者ガイド (SDK API ドキュメント)</span>
+								</a>
+							</li>
+							<li>
+								<a class="menu__link" rel="noopener" href="https://static.infragistics.com/marketing/reveal/business-teams-reveal-architecture-and-security.pdf?v=201903141130" target="_blank">
+									<span>アーキテクチャー＆セキュリティ (英語)</span>
 								</a>
 							</li>
 						</ul>
@@ -54,19 +54,34 @@ FOOTER
 						</div>
 						<ul>
 							<li>
-								<a class="menu__link" href="https://jp.infragistics.com/my-account/submit-support-request">
+								<a class="menu__link" rel="noopener" href="https://www.revealbi.io/glossary" target="_blank">
+									<span>用語集 (英語)</span>
+								</a>
+							</li>
+							<li>
+								<a class="menu__link" rel="noopener" href="https://jp.infragistics.com/my-account/submit-support-request/reveal" target="_blank">
 									<span>サポート</span>
 								</a>
 							</li>
 							<li>
-								<a class="menu__link" href="https://blogs.jp.infragistics.com/archive/category/Reveal">
-									<span>Blog</span>
+								<a class="menu__link" href="https://www.revealbi.io/jp/faq">
+									<span>よくあるご質問</span>
 								</a>
 							</li>
 							<li>
-								<span>
-									<a class="menu__link" href="https://jp.infragistics.com/support/feature-request">機能要望</a>
-								</span>
+								<a class="menu__link" rel="noopener" href="https://blogs.jp.infragistics.com/archive/category/Reveal" target="_blank">
+									<span>ブロック</span>
+								</a>
+							</li>
+							<li>
+								<a class="menu__link" rel="noopener" href="https://www.infragistics.com/community/ideas/i/reveal" target="_blank">
+									<span>アイデア</span>
+								</a>
+							</li>
+							<li>
+								<a class="menu__link" rel="noopener" href="https://www.infragistics.com/community/forums/f/reveal" target="_blank">
+									<span>フォーラム</span>
+								</a>
 							</li>
 						</ul>
 					</li>
@@ -75,7 +90,42 @@ FOOTER
 		</div>
 		<!-- Column 3 -->
 		<div class="ui-footer__col-one-fourth ui-footer__col-block">
-			<div class="ui-footer__menu"></div>
+			<div class="ui-footer__menu">
+				<ul class="ui-footer__menu-list">
+					<li class="ui-footer__menu-list-item">
+						<div class="ui-footer__category">
+							<span>今すぐ試す</span>
+						</div>
+						<ul>
+							<li>
+								<a class="menu__link" href="https://app.revealbi.io/Login?redirect=">
+									<span>Web</span>
+								</a>
+							</li>
+							<li>
+								<a class="menu__link" href="https://www.revealbi.io/jp/download-desktop">
+									<span>Desktop</span>
+								</a>
+							</li>
+							<li>
+								<a class="menu__link" href="ttps://www.revealbi.io/jp/download-sdk">
+									<span>組み込み SDK</span>
+								</a>
+							</li>
+							<li>
+								<a class="menu__link" href="https://apps.apple.com/jp/app/id1450654686">
+									<span>iOS</span>
+								</a>
+							</li>
+							<li>
+								<a class="menu__link" href="https://play.google.com/store/apps/details?id=com.infragistics.reveal">
+									<span>Android</span>
+								</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
 		</div>
 		<!-- Column 4 -->
 		<div class="ui-footer__col-one-fourth ui-footer__col-block">
@@ -92,9 +142,14 @@ FOOTER
 								</a>
 							</li>
 							<li>
-								<span>
-									<a class="menu__link" href="https://www.revealbi.io/jp/about-us#request-demo">お問い合わせ</a>
-								</span>
+								<a class="menu__link" href="https://www.revealbi.io/jp/about-us#request-demo">
+									<span>お問い合わせ</span>
+								</a>
+							</li>
+							<li>
+								<a class="menu__link" href="https://www.revealbi.io/jp/about-us#connect">
+									<span>グローバルオフィス</span>
+								</a>
 							</li>
 						</ul>
 					</li>
