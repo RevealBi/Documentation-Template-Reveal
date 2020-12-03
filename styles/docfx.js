@@ -1129,11 +1129,11 @@ $(document).ready(function () {
   //if (!pageLanguage) {
     //pageLanguage = "en";
   //}
-  var pageLanguage = $(document.body).data("_isLangEn")
+  var pageLanguage = $(document.body).data("_isLangJa")
   if (!pageLanguage) {
-    pageLanguage = "ja";
-  } else {
     pageLanguage = "en";
+  } else {
+    pageLanguage = "ja";
   }
 
   $(".anchorjs-link").on("click", function (e) {
