@@ -1129,7 +1129,7 @@ $(document).ready(function () {
   //if (!pageLanguage) {
     //pageLanguage = "en";
   //}
-  var pageLanguage = $(document.body).data("_isLangJa")
+  var pageLanguage = $(document.body).data("_isLangJa");
   if (!pageLanguage) {
     pageLanguage = "en";
   } else {
