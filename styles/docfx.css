@@ -452,16 +452,21 @@ div.embeddedvideo iframe {
     .tabGroup section[role="tabpanel"] {
       border: 1px solid #e0e0e0;
       padding: 15px;
-      margin: 0;
+      margin: 0 0 25px 0;
       overflow: hidden; }
       .tabGroup section[role="tabpanel"] > .codeHeader,
       .tabGroup section[role="tabpanel"] > pre {
-        margin-left: -16px;
-        margin-right: -16px; }
+        margin-left: -10px;
+        margin-right: -10px; }
       .tabGroup section[role="tabpanel"] > :first-child {
         margin-top: 0; }
       .tabGroup section[role="tabpanel"] > pre:last-child {
         display: block;
+        margin-bottom: -10px; }
+      .tabGroup section[role="tabpanel"] > pre:only-child {
+        margin-top: -16px;
+        margin-left: -16px;
+        margin-right: -16px;
         margin-bottom: -16px; }
   
   .mainContainer[dir='rtl'] main ul[role="tablist"] {
